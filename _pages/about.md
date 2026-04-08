@@ -25,10 +25,11 @@ My research follows four main directions:
 * **C.** Using protein representations for protein-protein interaction prediction (e.g., host-pathogen).
 * **D.** Using RNA representations for protein-small molecule interaction prediction (drug design).
 
-<iframe src="/files/research_one_slide.pdf" width="100%" height="400px">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="/files/research_one_slide.pdf">Download PDF</a>.
-</iframe>
+<img src="/files/research_one_slide.svg" alt="Research Summary" style="width: 100%; height: auto;">
+
+<p style="text-align: center;">
+    <small><a href="/files/research_one_slide.pdf">Download as PDF for printing</a></small>
+</p>
 
 ### Quick Bio
 
