@@ -27,10 +27,6 @@ My research follows four main directions:
 
 <img src="/files/research_one_slide.svg" alt="Research Summary" style="width: 100%; height: auto;">
 
-<p style="text-align: center;">
-    <small><a href="/files/research_one_slide.pdf">Download as PDF for printing</a></small>
-</p> 
-
 ### Quick Bio
 
 Prior to joining CBIO, I did a post-doc with [Maks Ovsjanikov](https://scholar.google.fr/citations?user=0IsSPNEAAAAJ&hl=en), working on protein representation and cryo-EM data analysis. 
