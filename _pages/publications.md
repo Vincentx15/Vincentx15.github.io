@@ -7,6 +7,17 @@ author_profile: true
 
 ## Publications
 
+**Learning Dynamic Protein Representations at Scale with Distograms**
+Nicolas Portal, Wissam Karroucha, Vincent Mallet*, Max Bonomi*
+ICLR Workshop LMRL
+[preprint](https://www.biorxiv.org/content/10.64898/2026.01.29.702509v1.abstract)
+
+
+**Machine learning for RNA-targeting drug design**
+Wissam Karroucha, Véronique Stoven, Carlos Oliver, Vincent Mallet
+[preprint](https://arxiv.org/pdf/2512.15645)
+
+
 **A Comprehensive Library for RNA Structure-Function Modeling**
 Luis Wyss*, Vincent Mallet*, Wissam Karroucha*, Karsten Borgwardt, Carlos Oliver
 ICLR Workshop AI4NA

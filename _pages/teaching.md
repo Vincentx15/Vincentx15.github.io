@@ -5,26 +5,18 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## 2022
+## Teaching Experience
 
-**Foundations of AI**, *Main Lecturer, 40h.*\
-*Master Digital Sciences, Centre de Recherche Interdisciplinaire (CRI Paris).*\
-Machine Learning, Optimization, Deep Learning.
-Created the whole content of the class.
-
-## 2021
-
-**AI in drug design**, *Lecturer, 6h.*\
-*Master In-Silico Drug Design, Université de Paris.*\
-Graph Neural Networks, Generative Models, Compound Optimization.
-
-**Equivariance for Structural Bioinformatics**, *Lecturer, 4h.*\
-*Computer Science Master, McGill University.*\
-Groups, equivariance in general. Application to bio-molecules.
-
-## 2020
-
-**AI in drug design**, *Lecturer, 6h.*\
-*Master In-Silico Drug Design, Université de Paris.*\
-Generative Models, QSAR modelling, Compound Optimization.
-
+* **2025 – 2026** | **Lecturer**, Institut Pasteur
+    * *Introduction to deep neural networks*
+* **2025 - 2026** | **Lecturer**, Dassault Systèmes
+    * *Foundations of deep learning*
+* **2024 – 2026** | **Lecturer**, École des Mines
+    * *Modern drug design with learning approaches*
+* **2022 – 2024** | **Teacher**, CRI Paris
+    * *Foundations of AI (45 hours of classes and practical sessions)*
+* **2022** | **Lecturer**, McGill CS Master
+    * *Geometric learning for drug design*
+* **2020 – 2022** | **Lecturer**, Université de Paris (Master ISDD)
+    * *Generative models for drug design*
+  

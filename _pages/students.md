@@ -5,11 +5,15 @@ permalink: /students/
 author_profile: true
 ---
 
+## Master
+
+Alexandre Ducorroy (April 2026 - current)
+
 ## PhD
 
-Victor Gertner (Oct. 2025 - current)
+Victor Gertner ([LinkedIn](https://www.linkedin.com/in/victor-gertner/)) (Oct. 2025 - current)
 
-Wissam Karroucha (Oct. 2024 - current)
+Wissam Karroucha ([LinkedIn](https://www.linkedin.com/in/wissam-karroucha-26411b1bb/))(Oct. 2024 - current)
 
 Victor Laigle ([scholar](https://scholar.google.com/citations?user=A_5v8qcAAAAJ&hl=en)) (Jan. 2024 - current)
 
