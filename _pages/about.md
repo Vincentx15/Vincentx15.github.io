@@ -29,7 +29,7 @@ My research follows four main directions:
 
 <p style="text-align: center;">
     <small><a href="/files/research_one_slide.pdf">Download as PDF for printing</a></small>
-</p>
+</p> 
 
 ### Quick Bio
 
