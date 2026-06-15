@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Vincent Mallet"
-description              : &description "PhD candidate at Institut Pasteur and Mines-Paristech"
+description              : &description "Research Scientist at Mines-Paris and Institut Curie"
 url                      : https://Vincentx15.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Vincentx15.github.io"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.fr/citations?user=bSlWpRUAAAAJ&hl=en"
-  email            : "vincent.mallet96@gmail.com"
+  email            : "vincent.mallet@minesparis.psl.eu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
