@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Site-specific styles (publications, CV lists, teaching tables)
+   ========================================================================== */
+
+/* Publications (_includes/publication.html) */
+
+.pub {
+  margin: 0 0 1.4em;
+  line-height: 1.45;
+}
+
+.pub__title {
+  font-weight: bold;
+}
+
+.pub__authors,
+.pub__venue {
+  font-size: $type-size-5;
+  color: $dark-gray;
+}
+
+.pub__authors sup {
+  font-size: 0.7em;
+}
+
+.pub__links {
+  margin-top: 0.3em;
+}
+
+.pub .pub__link {
+  display: inline-block;
+  margin: 0 0.4em 0.2em 0;
+  padding: 0.05em 0.6em;
+  font-size: $type-size-6;
+  border: 1px solid $link-color;
+  border-radius: 4px;
+  text-decoration: none;
+
+  &:hover {
+    color: #fff;
+    background-color: $link-color;
+  }
+}
+
+/* Dated lists: CV, teaching, talks, students (_includes/dated-list.html) */
+
+.dated-list {
+  margin: 0 0 1.5em;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    margin: 0 0 0.6em;
+    line-height: 1.45;
+  }
+}
+
+.dated-list__date {
+  flex: 0 0 7.5em;
+  color: $gray;
+  font-variant-numeric: tabular-nums;
+}
+
+.dated-list__body {
+  flex: 1;
+}
+
+.dated-list__detail {
+  display: block;
+  font-size: 0.9em;
+  color: $gray;
+}
+
+@include breakpoint(max-width $small) {
+  .dated-list li {
+    display: block;
+  }
+
+  .dated-list__date {
+    display: block;
+    font-size: $type-size-6;
+  }
+}

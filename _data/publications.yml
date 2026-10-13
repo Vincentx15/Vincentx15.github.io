@@ -1,0 +1,167 @@
+# Publication list, rendered by _pages/publications.md.
+# Newest first within each section. "Vincent Mallet" is bolded automatically.
+# Use "*" after a name for equal contribution (rendered as a superscript).
+#
+# section: journal | conference | workshop | preprint
+# links:   free list of {name, url}; usual names are paper, preprint, code, docs, pip
+
+- title: "Machine learning for RNA-targeting drug design"
+  authors: "Wissam Karroucha, Carlos Oliver, Véronique Stoven, Vincent Mallet"
+  venue: "Journal of Chemical Information and Modeling"
+  year: 2026
+  section: journal
+  links:
+    - {name: paper, url: "https://doi.org/10.1021/acs.jcim.6c01094"}
+    - {name: preprint, url: "https://arxiv.org/abs/2512.15645"}
+
+- title: "Structure-based RNA drug discovery with deep-learning assisted virtual screening"
+  authors: "Juan Guillermo Carvajal Patiño*, Vincent Mallet*, David Becerra, Luis Fernando Niño, Carlos Oliver, Jérôme Waldispühl"
+  venue: "Nature Communications"
+  year: 2025
+  section: journal
+  links:
+    - {name: paper, url: "https://www.nature.com/articles/s41467-025-57852-0"}
+    - {name: code, url: "https://github.com/cgoliver/rnamigos2"}
+
+- title: "InDeepNet: a web platform for predicting functional binding sites in proteins using InDeep"
+  authors: "Fabien Mareuil, Rachel Torchet, Luis Checa Ruano, Vincent Mallet, Michael Nilges, Guillaume Bouvier, Olivier Sperandio"
+  venue: "Nucleic Acids Research"
+  year: 2025
+  section: journal
+  links:
+    - {name: paper, url: "https://academic.oup.com/nar/article/53/W1/W324/8126900"}
+
+- title: "Finding antibodies in cryo-EM maps with CrAI"
+  authors: "Vincent Mallet, Chiara Rapisarda, Hervé Minoux, Maks Ovsjanikov"
+  venue: "Bioinformatics"
+  year: 2025
+  section: journal
+  links:
+    - {name: paper, url: "https://academic.oup.com/bioinformatics/article/41/5/btaf157/8109434"}
+    - {name: code, url: "https://github.com/Sanofi-Public/crai"}
+
+- title: "AlignScape, displaying sequence similarity using self-organizing maps"
+  authors: "Isaac Filella-Merce, Vincent Mallet, Eric Durand, Michael Nilges, Guillaume Bouvier, Riccardo Pellarin"
+  venue: "Frontiers in Bioinformatics"
+  year: 2024
+  section: journal
+  links:
+    - {name: paper, url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10853471/"}
+    - {name: code, url: "https://github.com/bougui505/alignscape"}
+
+- title: "InDeep: 3D fully convolutional neural networks to assist in silico drug design on protein-protein interactions"
+  authors: "Vincent Mallet, Luis Checa Ruano, Alexandra Moine Franel, Michael Nilges, Karen Druart, Guillaume Bouvier, Olivier Sperandio"
+  venue: "Bioinformatics"
+  year: 2022
+  section: journal
+  links:
+    - {name: paper, url: "https://doi.org/10.1093/bioinformatics/btab849"}
+    - {name: code, url: "https://gitlab.pasteur.fr/InDeep/InDeep"}
+
+- title: "RNAglib: a Python package for RNA 2.5D graphs"
+  authors: "Vincent Mallet, Carlos Oliver, Jonathan Broadbent, William L. Hamilton, Jérôme Waldispühl"
+  venue: "Bioinformatics"
+  year: 2022
+  section: journal
+  links:
+    - {name: paper, url: "https://doi.org/10.1093/bioinformatics/btab844"}
+    - {name: code, url: "https://github.com/cgoliver/rnaglib"}
+    - {name: docs, url: "https://rnaglib.readthedocs.io"}
+    - {name: pip, url: "https://pypi.org/project/rnaglib/"}
+
+- title: "VeRNAl: a tool for mining fuzzy network motifs in RNA"
+  authors: "Carlos Oliver*, Vincent Mallet*, Pericles Philippopoulos, William L. Hamilton, Jérôme Waldispühl"
+  venue: "Bioinformatics"
+  year: 2022
+  section: journal
+  links:
+    - {name: paper, url: "https://doi.org/10.1093/bioinformatics/btab768"}
+    - {name: code, url: "https://github.com/cgoliver/vernal"}
+
+- title: "quicksom: Self-Organizing Maps on GPUs for clustering of molecular dynamics trajectories"
+  authors: "Vincent Mallet, Michael Nilges, Guillaume Bouvier"
+  venue: "Bioinformatics"
+  year: 2021
+  section: journal
+  links:
+    - {name: paper, url: "https://doi.org/10.1093/bioinformatics/btaa925"}
+    - {name: code, url: "https://github.com/bougui505/quicksom"}
+    - {name: pip, url: "https://pypi.org/project/quicksom/"}
+
+- title: "OptiMol: optimization of binding affinities in chemical space for drug discovery"
+  authors: "Jacques Boitreaud*, Vincent Mallet*, Carlos Oliver, Jérôme Waldispühl"
+  venue: "Journal of Chemical Information and Modeling"
+  year: 2020
+  section: journal
+  links:
+    - {name: paper, url: "https://doi.org/10.1021/acs.jcim.0c00833"}
+    - {name: code, url: "https://github.com/Vincentx15/OptiMol"}
+
+- title: "Augmented base pairing networks encode RNA-small molecule binding preferences"
+  authors: "Carlos Oliver, Vincent Mallet, Roman Sarrazin Gendron, Vladimir Reinharz, William L. Hamilton, Nicolas Moitessier, Jérôme Waldispühl"
+  venue: "Nucleic Acids Research"
+  year: 2020
+  section: journal
+  links:
+    - {name: paper, url: "https://doi.org/10.1093/nar/gkaa583"}
+    - {name: code, url: "https://github.com/Vincentx15/RNAmigos"}
+
+- title: "AtomSurf: surface representation for learning on protein structures"
+  authors: "Vincent Mallet*, Souhaib Attaiki*, Yangyang Miao*, Bruno Correia, Maks Ovsjanikov"
+  venue: "International Conference on Learning Representations (ICLR)"
+  year: 2025
+  section: conference
+  links:
+    - {name: paper, url: "https://arxiv.org/abs/2309.16519"}
+    - {name: code, url: "https://github.com/Vincentx15/atomsurf"}
+
+- title: "Reverse-complement equivariant networks for DNA sequences"
+  authors: "Vincent Mallet, Jean-Philippe Vert"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2021
+  section: conference
+  links:
+    - {name: paper, url: "https://proceedings.neurips.cc/paper_files/paper/2021/hash/706608cfdbcc1886bb7eea5513f90133-Abstract.html"}
+    - {name: code, url: "https://github.com/Vincentx15/Equi-RC"}
+    - {name: pip, url: "https://pypi.org/project/equirc/"}
+
+- title: "Learning dynamic protein representations at scale with distograms"
+  authors: "Nicolas Portal, Wissam Karroucha, Vincent Mallet*, Massimiliano Bonomi*"
+  venue: "ICLR Workshop on Learning Meaningful Representations of Life (LMRL)"
+  year: 2026
+  section: workshop
+  links:
+    - {name: preprint, url: "https://www.biorxiv.org/content/10.64898/2026.01.29.702509v1"}
+
+- title: "AlphaSurf: on-the-fly surface computations for protein representation learning"
+  authors: "Victor Gertner, Frédéric Cazals, Vincent Mallet"
+  venue: "ICLR Workshop on Learning Meaningful Representations of Life (LMRL)"
+  year: 2026
+  section: workshop
+  links:
+    - {name: paper, url: "https://openreview.net/forum?id=rBjKl58v54"}
+
+- title: "A comprehensive library for RNA structure-function modeling"
+  authors: "Luis Wyss*, Vincent Mallet*, Wissam Karroucha*, Karsten Borgwardt, Carlos Oliver"
+  venue: "ICLR Workshop on AI for Nucleic Acids (AI4NA)"
+  year: 2025
+  section: workshop
+  links:
+    - {name: preprint, url: "https://arxiv.org/abs/2503.21681"}
+    - {name: code, url: "https://github.com/cgoliver/rnaglib"}
+
+- title: "Approximate network motif mining via graph learning"
+  authors: "Carlos Oliver, Dexiong Chen, Vincent Mallet, Pericles Philippopoulos, Karsten Borgwardt"
+  venue: "arXiv"
+  year: 2022
+  section: preprint
+  links:
+    - {name: preprint, url: "https://arxiv.org/abs/2206.01008"}
+
+- title: "Leveraging binding-site structure for drug discovery with point-cloud methods"
+  authors: "Vincent Mallet, Carlos G. Oliver, Nicolas Moitessier, Jérôme Waldispühl"
+  venue: "arXiv"
+  year: 2019
+  section: preprint
+  links:
+    - {name: preprint, url: "https://arxiv.org/abs/1905.12033"}

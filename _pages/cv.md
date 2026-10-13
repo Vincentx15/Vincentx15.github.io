@@ -5,14 +5,26 @@ permalink: /cv/
 author_profile: true
 ---
 
-{% include base_path %}
+{% comment %} Content lives in _data/cv.yml {% endcomment %}
 
-Here is a link to my full resume : [my CV](/files/CV.pdf).
+A PDF version is available [here](/files/CV.pdf). See also my [publications](/publications/), [teaching](/teaching/) and [students](/students/).
 
-Career
-======
-* B.S. in Bioinformatics, at Ecole Polytechnique, 2018
-* M.S. in Computer Science and Machine Learning, McGill University, 2019
-* Ph.D on Geometric Deep Learning for Structural Bioinformatics, Institut Pasteur and Mines-Paristech
-* Post-Doc on representations of proteins and cryo-EM, Ecole Polytechnique
-* Faculty researcher, Mines Paris
+## Positions
+
+{% include dated-list.html items=site.data.cv.positions %}
+
+## Education
+
+{% include dated-list.html items=site.data.cv.education %}
+
+## Awards, fellowships and grants
+
+{% include dated-list.html items=site.data.cv.awards %}
+
+## Service
+
+{% include dated-list.html items=site.data.cv.service %}
+
+## Talks
+
+{% include dated-list.html items=site.data.cv.talks %}

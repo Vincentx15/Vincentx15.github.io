@@ -12,7 +12,7 @@ redirect_from:
 Welcome to my home page!
 
 I am a faculty researcher at **Mines Paris - PSL**, in the [CBIO](https://cbio.mines-paristech.fr/) (Centre for Computational Biology). 
-I am a co-organizer of the [MASIM](https://gt-masim.cnrs.fr/) community, and a member of the [PRAIRIE](https://www.prairie-psai.fr/) Institute and the [ELLIS](https://ellis.eu/) network.
+I am a co-organizer of the [MASIM](https://gt-masim.cnrs.fr/) community, I hold a [PRAIRIE-PSAI](https://www.prairie-psai.fr/) junior chair and I am a member of the [ELLIS](https://ellis.eu/) network.
 
 ### Research Interests
 

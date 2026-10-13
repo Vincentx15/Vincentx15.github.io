@@ -1,0 +1,13 @@
+{% comment %} Renders a list from _data/cv.yml, passed as include.items (date, title, detail, url) {% endcomment %}
+<ul class="dated-list">
+{% for item in include.items %}
+  {% assign title = item.title | markdownify | remove: "<p>" | remove: "</p>" | strip %}
+  <li>
+    {% if item.date %}<span class="dated-list__date">{{ item.date }}</span>{% endif %}
+    <span class="dated-list__body">
+      {% if item.url %}<a href="{{ item.url }}">{{ title }}</a>{% else %}{{ title }}{% endif %}
+      {% if item.detail %}<span class="dated-list__detail">{{ item.detail | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}
+    </span>
+  </li>
+{% endfor %}
+</ul>
