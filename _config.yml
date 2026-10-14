@@ -132,6 +132,7 @@ exclude:
   - CONTRIBUTING.md
   - README.md
   - CLAUDE.md
+  - serve.sh
   - .idea
   - Capfile
   - Gemfile

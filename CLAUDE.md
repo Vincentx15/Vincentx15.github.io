@@ -34,19 +34,12 @@ Publisher sites (OUP, ACS via doi.org) return 403 to scripts and LinkedIn return
 
 ## Building locally
 
-The system Ruby has no dev headers, so use a conda env (keep it outside the repo):
+`./serve.sh` builds and serves the site at http://localhost:4000 with live reload (extra args go to `jekyll serve`).
+On first run it creates a conda env in `~/.cache/vincentx15-site` (Ruby 3.3 + compilers, then the gems), because the system Ruby has no dev headers and a plain `bundle install` fails.
+It works on a copy of the Gemfile in that folder, so no `Gemfile.lock` lands in the repo, and uses the bundler shipped with the conda Ruby.
 
-```bash
-conda create -y -p <env> -c conda-forge ruby=3.3 compilers make pkg-config
-export PATH=<env>/bin:$PATH GEM_HOME=<gems> GEM_PATH=<gems>
-gem install bundler -i <gems>
-cp Gemfile <dir>/ && BUNDLE_GEMFILE=<dir>/Gemfile BUNDLE_PATH=<bundle> ruby <gems>/bin/bundle install
-BUNDLE_GEMFILE=<dir>/Gemfile BUNDLE_PATH=<bundle> ruby <gems>/bin/bundle exec jekyll build -d <out> --config _config.yml,<local.yml>
-```
-
-`<local.yml>` contains `url: http://localhost:4123`, otherwise pages load CSS from the live site. Serve `<out>` with `python3 -m http.server 4123` and screenshot with
-`google-chrome --headless=new --no-sandbox --virtual-time-budget=5000 --window-size=1300,1800 --screenshot=out.png http://localhost:4123/publications/` (use width 390 to check mobile).
-Calling `ruby <gems>/bin/bundle` directly avoids a broken shebang in the generated `bundle` script. `Gemfile.lock` is git-ignored.
+To check pages visually, screenshot the running server:
+`google-chrome --headless=new --no-sandbox --virtual-time-budget=5000 --window-size=1300,1800 --screenshot=out.png http://localhost:4000/publications/` (width 390 for mobile).
 
 ## Leftovers to know about
 
