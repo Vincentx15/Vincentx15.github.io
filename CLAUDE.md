@@ -8,7 +8,7 @@ Pushing to `master` publishes the site: commit locally and let Vincent push, unl
 | Page | URL | Source | Data |
 |---|---|---|---|
 | Home / about | `/` | `_pages/about.md` (free text, research figure `files/research_one_slide.svg`) | – |
-| Publications | `/publications/` | `_pages/publications.md` + `_includes/publication.html` | `_data/publications.yml` |
+| Publications | `/publications/` | `_pages/publications.md` + `_includes/publication.html` + `assets/js/pub-filter.js` | `_data/publications.yml`, `_data/publication_types.yml` |
 | Teaching | `/teaching/` | `_pages/teaching.md` | `_data/cv.yml` → `teaching` |
 | Students | `/students/` | `_pages/students.md` (applicant text is free text) | `_data/cv.yml` → `students.{postdoc,phd,joint,alumni}` |
 | CV | `/cv/` | `_pages/cv.md` | `_data/cv.yml` → `positions, education, awards, service, talks` |
@@ -21,7 +21,7 @@ Pushing to `master` publishes the site: commit locally and let Vincent push, unl
 
 The source of truth is `files/CV.pdf` (read it with `pdftotext -layout files/CV.pdf -`). When Vincent updates the CV, diff its sections against the yml files:
 
-- New paper: add an entry to `_data/publications.yml` in the right `section` (journal, conference, workshop, preprint), newest first. Fields: `title, authors, venue, year, section, links`. Write `*` after a name for equal contribution; `Vincent Mallet` is bolded automatically. Link names in use: `paper, preprint, code, docs, pip`. When a preprint gets published, move it to its new section and add the `paper` link, keeping the `preprint` link.
+- New paper: add an entry to `_data/publications.yml` with its `section` (journal, conference, workshop, preprint). The page groups entries by `year` under year headings, gives each a colored type badge and a filter bar (linkable as `/publications/#journal`); within a year the file order is kept. A new type needs a label in `_data/publication_types.yml` and a color in `$pub-types` in `_sass/_custom.scss`. Fields: `title, authors, venue, year, section, links`. Write `*` after a name for equal contribution; `Vincent Mallet` is bolded automatically. Link names in use: `paper, preprint, code, docs, pip`. When a preprint gets published, move it to its new section and add the `paper` link, keeping the `preprint` link.
 - Talks, teaching, students, awards, positions: add items to `_data/cv.yml` (`date`, `title`, optional `detail` and `url`; markdown allowed in title and detail). Date style: `2024 – 2026` (en dash) or `since 2025`.
 - Students: when someone finishes, move them to `students.alumni` with an end date.
 - Text on the home page is Vincent's own writing: keep edits factual and minimal (see his writing-style skill: no em-dashes, no filler).

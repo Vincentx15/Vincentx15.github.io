@@ -1,0 +1,6 @@
+# Badge label for each `section` value of _data/publications.yml, in filter-bar order.
+# Badge colors are in _sass/_custom.scss (.pub-badge--<section>).
+journal: Journal
+conference: Conference
+workshop: Workshop
+preprint: Preprint

@@ -1,8 +1,9 @@
-# Publication list, rendered by _pages/publications.md.
-# Newest first within each section. "Vincent Mallet" is bolded automatically.
+# Publication list, rendered by _pages/publications.md grouped by year (newest first).
+# Within a year, entries keep the order of this file. "Vincent Mallet" is bolded automatically.
 # Use "*" after a name for equal contribution (rendered as a superscript).
 #
-# section: journal | conference | workshop | preprint
+# section: journal | conference | workshop | preprint (shown as a type badge and used by the
+#          filter bar; labels in _data/publication_types.yml)
 # links:   free list of {name, url}; usual names are paper, preprint, code, docs, pip
 
 - title: "Machine learning for RNA-targeting drug design"

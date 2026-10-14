@@ -1,8 +1,9 @@
 {% comment %} Renders one entry of _data/publications.yml, passed as include.pub {% endcomment %}
 {% assign pub = include.pub %}
-<div class="pub">
-  <div class="pub__title">{{ pub.title }}</div>
+{% assign type_label = site.data.publication_types[pub.section] | default: pub.section %}
+<div class="pub" data-type="{{ pub.section }}">
+  <div class="pub__title"><button type="button" class="pub-badge pub-badge--{{ pub.section }}" data-filter="{{ pub.section }}" title="Show only {{ type_label | downcase }} papers">{{ type_label }}</button> {{ pub.title }}</div>
   <div class="pub__authors">{{ pub.authors | replace: "*", "<sup>*</sup>" | replace: "Vincent Mallet", "<strong>Vincent Mallet</strong>" }}</div>
-  <div class="pub__venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+  <div class="pub__venue"><em>{{ pub.venue }}</em></div>
   {% if pub.links %}<div class="pub__links">{% for link in pub.links %}<a class="pub__link" href="{{ link.url }}">{{ link.name }}</a>{% endfor %}</div>{% endif %}
 </div>

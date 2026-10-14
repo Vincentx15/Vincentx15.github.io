@@ -42,6 +42,75 @@
   }
 }
 
+/* Publication type badges and filter bar (_pages/publications.md, assets/js/pub-filter.js) */
+
+$pub-types: (
+  all: $dark-gray,
+  journal: #1f6a9a,
+  conference: #7a3e9d,
+  workshop: #a45a12,
+  preprint: #5c656b
+);
+
+.pub-badge {
+  display: inline-block;
+  margin: 0 0.3em 0 0;
+  padding: 0.1em 0.55em;
+  font-family: inherit;
+  font-size: $type-size-7;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: 0.15em;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+@each $type, $color in $pub-types {
+  .pub-badge--#{$type} {
+    color: $color;
+    background-color: mix(#fff, $color, 88%);
+    border-color: mix(#fff, $color, 70%);
+
+    &:hover,
+    &.is-active {
+      color: #fff;
+      background-color: $color;
+      border-color: $color;
+    }
+  }
+}
+
+.pub-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin: 1em 0 0.5em;
+
+  &[hidden] {
+    display: none;
+  }
+
+  .pub-badge {
+    margin: 0;
+    padding: 0.3em 0.8em;
+    font-size: $type-size-6;
+    vertical-align: baseline;
+  }
+}
+
+.pub-filter__count {
+  margin-left: 0.2em;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+.pub[hidden],
+.pub-year[hidden] {
+  display: none;
+}
+
 /* Dated lists: CV, teaching, talks, students (_includes/dated-list.html) */
 
 .dated-list {
